@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   res.end(msg);
 });
 
+// I am checking my gpg key here
 server.listen(port, () => {
   console.log(`Server running on http://localhost:${port}/`);
 });
